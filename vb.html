@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Menu Bar</title>
+
+<style type="text/css">
+ol          	  {display: flex;background-color:yellow;margin: 0;padding: 0;list-style-type: none;}
+ol li             {position: relative;padding: 15px 25px;}
+ol li:hover		  {background-color: silver;}
+ol li a     	  {font-size:25px;padding:20px 40px;color:olive;text-decoration:none;}
+ol li ul    	  {display:none;position:absolute;top:100%;left:0;background-color:white;
+				   list-style-type:none;
+			       padding:0;margin:0;min-width:150px;}
+ol li ul li       {padding:20px;}
+ol li ul li:hover {background-color:lightgray;}
+ol li:hover ul    {display: block;}
+</style>
+</head>
+
+<body style="background-color: aqua;">
+
+<div style="background-color:yellow; height:60px;">
+<ol>
+<li>
+<a href="#">File</a>
+<ul>
+<li><a href="#">New</a></li>
+<li><a href="#">Open</a></li>
+<li><a href="#">Save</a></li>
+<li><a href="#">Exit</a></li>
+</ul>
+</li>
+<li>
+<a href="#">Edit</a>
+<ul>
+<li><a href="#">Undo</a></li>
+<li><a href="#">Redo</a></li>
+<li><a href="#">Cut</a></li>
+<li><a href="#">Copy</a></li>
+</ul>
+</li>
+<li><a href="#">Search</a></li>
+<li><a href="#">View</a></li>
+<li><a href="#">Settings</a></li>
+<li><a href="#">Run</a></li>
+</ol>
+</div>
+
+</body>
+</html>
+
